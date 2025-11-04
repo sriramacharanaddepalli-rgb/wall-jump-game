@@ -1,0 +1,21 @@
+{
+  "name": "plonky-3",
+  "version": "1.0.0",
+  "description": "A standalone version of Plonky 3 game.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-win": "electron-builder --win",
+    "build-mac": "electron-builder --mac"
+  },
+  "keywords": [
+    "electron",
+    "game"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.0.0"
+  }
+}
